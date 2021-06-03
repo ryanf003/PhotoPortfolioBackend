@@ -38,7 +38,6 @@ const albumSchema = new Schema({
     },
     coverImg: {
         type: String,
-        unique: true
     },
     featured: {
         type: Boolean,
